@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/7c35a4ac6f.js" crossorigin="anonymous"></script>
+    
+    <title>Wikipedia</title>
+</head>
+<body>
+    <main class="main">
+        <section class="first-section">
+            <div class="contenido-superior">
+                <figure class="logo-container">
+                    <img src="./assets/Wikipedia-logo22.png" alt="Wikipedia logo" class="logo">
+                </figure>
+                <div class="subtitle">
+                    <figure class="subtitle-container">
+                        <img src="./assets/wikipedia-logo-text.png" alt="Logo Wikipedia" class="wikipedia-figura-imagen">
+                    </figure>
+                    <strong>La enciclopedia libre</strong>
+                </div>
+            </div>
+
+            <article class="section-content">
+                <div class="contenido-central_lang contenido-central_lang-1">
+                    <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">
+                        <strong class="contenido-central_lenguaje">Español</strong>
+                        <small class="contenido-central_descripcion">1 679 000+ artículos</small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-3">
+                    <a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8">
+                        <strong class="contenido-central_lenguaje">日本語</strong>
+                        <small class="contenido-central_descripcion">1 266 000+ 記事</small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-5">
+                    <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">
+                        <strong class="contenido-central_lenguaje">Français</strong>
+                        <small class="contenido-central_descripcion">2 324 000+ articles</small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-7">
+                    <a href="https://it.wikipedia.org/wiki/Pagina_principale">
+                        <strong class="contenido-central_lenguaje">Italiano</strong>
+                        <small class="contenido-central_descripcion">1 690 000+ voci</small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-9">
+                    <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">
+                        <strong class="contenido-central_lenguaje">Polski</strong>
+                        <small class="contenido-central_descripcion">1 471 000+ hasel</small>
+                    </a>
+                </div>
+
+                <figure class="middle">
+                    <img src="./assets/Wikipedia-logo2.png" alt="Wikipedia Logo" class="logo-middle">
+                </figure>
+
+                <div class="contenido-central_lang contenido-central_lang-2">
+                    <a href="https://en.wikipedia.org/wiki/Main_Page">
+                        <strong class="contenido-central_lenguaje">English</strong>
+                        <small class="contenido-central_descripcion">6 291 000+ articles</small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-4">
+                    <a href="https://de.wikipedia.org/wiki/Wikipedia:Hauptseite">
+                        <strong class="contenido-central_lenguaje">Deutsch</strong>
+                        <small class="contenido-central_descripcion">2 571 000+ Artikel</small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-6">
+                    <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">
+                        <strong class="contenido-central_lenguaje">Русский</strong>
+                        <small class="contenido-central_descripcion">1 720 000+ статей</small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-8">
+                    <a href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5">
+                        <strong class="contenido-central_lenguaje">中文</strong>
+                        <small class="contenido-central_descripcion">1 194 000+ <data-convert-hans data-convert-hans="條目" id="zh_art">條目</data-convert-hans></small>
+                    </a>
+                </div>
+                <div class="contenido-central_lang contenido-central_lang-10">
+                    <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">
+                        <strong class="contenido-central_lenguaje">Português</strong>
+                        <small class="contenido-central_descripcion">1 055 000+ artigos</small>
+                    </a>
+                </div>         
+            </article>
+
+            <fieldset class="search-bar">
+                <div class="search-bar-container">
+                    <input type="text" class="buscador-texto">
+                    <div class="open-languages">
+                        <label for="buscar-language" id="jsBuscarLenguaje" class="mostrar-lenguaje">ES</label>
+                        <span class="icono"><i class="fas fa-angle-down"></i></span>
+                        <select name="lenguaje" id="buscarLenguaje" class="seleccionar-idioma">
+                                <option value="es" lang="es" class="selected">Español</option>
+                                <option value="en" lang="en">English</option>
+                                <option value="it" lang="it">Italiano</option>
+                                <option value="fr" lang="fr">Français</option>
+                        </select>
+                    </div>
+                </div>  
+                <button type="button" id="botonCambiador" class="boton-buscar"><i class="icon-lupa fas fa-search"></i></button>
+            </fieldset>
+            <section class="container-boton-idiomas">
+                <button class="boton-idiomas">
+                    <i class="boton-idiomas_lang fas fa-languaje"></i>
+                    <span class="boton-idiomas_texto">Leer Wikipedia en tu idioma</span>
+                    <i class="boton-idiomas_flecha fas fa-angle-down"></i>
+                </button>
+                <hr class="lang-list_border">
+            </section>
+        </section>
+    </main>
+</body>
+</html>
