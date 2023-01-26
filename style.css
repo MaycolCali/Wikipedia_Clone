@@ -303,3 +303,54 @@ a{
 .icon-lupa{
     color: #fff;
 }
+
+/*--------------LAST SECTION BUTTON---------------*/
+.container-boton-idiomas {
+    width: 100%;
+    max-width: 27rem;
+    height: 4.6rem;
+    padding: .6rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 2.5rem;
+    background-color: white;
+    order: 4;
+}
+.container-boton-idiomas .boton-idiomas{
+    width: 70%;
+    min-height: 2.3rem;
+    padding: .6rem 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+    color: #36c;
+    font-size: .9em;
+    font-weight: 700;
+    border: 1px solid var(--font-color);
+    border-radius: 2px;
+    background-image: url("./assets/language-icon.png");
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 3% 50%;
+}
+
+.boton-idiomas-lang{
+    color: var(--wiki-light-blue);
+}
+.boton-idiomas-texto{
+    padding: 0 .8rem;
+}
+.boton-idiomas-flecha{
+    color: var(--wiki-light-blue);
+}
+.container-boton-idiomas .lang-list-border{
+    height: 1px;
+    background-color: var(--font-color);
+    width: 33%;
+    position: absolute;
+    margin-bottom: 1.8rem;
+    z-index: -1;
+}
