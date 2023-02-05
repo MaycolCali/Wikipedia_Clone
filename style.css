@@ -114,7 +114,7 @@ a{
 }
 #buscador-texto {
     -webkit-appearance: none;
-    width: 102%;
+    width: 100%;
     height: 2.5rem;
     position: relative;
     border: .5px solid #a2a9b1;;
@@ -196,7 +196,7 @@ a{
 }
 .boton-buscar{
     display: inline-block;
-    width: 4.5rem;
+    width: 3.5rem;
     height: 2.5rem;
     cursor: pointer;
     background-color: var(--wiki-blue);
@@ -206,6 +206,10 @@ a{
 }
 .icon-lupa{
     color: #fff;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*--------------LAST SECTION BUTTON---------------*/
