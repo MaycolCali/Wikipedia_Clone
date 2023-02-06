@@ -262,3 +262,57 @@ a{
     margin-bottom: 1.8rem;
     z-index: -1;
 }
+
+/*--------------SECOND SECTION---------------*/
+.second-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.1rem solid var(--line-color);
+    padding: 1rem 0.5rem;
+    margin: 2rem auto;
+    width: 100%;
+    height: 100%;
+}
+.wiki-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+.wiki-info .wiki-info-description,
+.wiki-info .wiki-info-links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--font-color);
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem 0;
+    width: 100%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato,
+    Helvetica, Arial, sans-serif;
+}
+.wiki-info .wiki-info-app-stores-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+}
+.wiki-info .wiki-info-app-stores-container a{
+    width: 8rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.wiki-info .wiki-info-app-stores-container img{
+    width: 100%;
+    height: 100%;
+}
