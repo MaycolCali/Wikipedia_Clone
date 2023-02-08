@@ -9,11 +9,12 @@
     display: none;
 }
 .section-content{
-    grid-template-columns: repeat(3, 10rem);
+    grid-template-columns: repeat(3, 11rem);
     font-size: 1.1rem;
 }
 .first-section .search-bar-container{
     order: 3;
+    padding-top: 2rem;
 }
 .first-section .container-boton-idiomas .line{
     display: block;
@@ -24,25 +25,43 @@
 .footer-bar li:first-child{
     list-style: none;
 }
-.section-content div:nth-child(2),
+.section-content div:nth-child(2){
+    justify-self: start;
+    margin-right: 1.5rem;
+}
 .section-content div:nth-child(11){
     justify-self: start;
+    margin-left: .5rem;
+
 }
 .section-content div:nth-child(5){
     justify-self: start;
-    padding-left: 1rem;
+    margin-left: .5rem;
+
 }
 .section-content div:nth-child(7){
     justify-self: end;
-    padding-right: 1rem;
+    margin-right: 1rem;
+
 }
 .section-content div:nth-child(3),
 .section-content div:nth-child(8){
-    padding-right: 1rem;
+    margin-right: 1.5rem;
+
 }
-.section-content div:first-child,
+.section-content div:nth-child(4),
+.section-content div:nth-child(9){
+    margin-left: 2rem;
+
+}
+.section-content div:first-child{
+    justify-self: end;
+
+}
 .section-content div:nth-child(10){
     justify-self: end;
+    margin-right: .1rem;
+
 }
 /*--------------LAST SECTION BUTTON---------------*/
 /*--------------SECOND SECTION---------------*/
