@@ -58,7 +58,7 @@ a:hover{
 .wiki-links{
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     order: 3;
-    width: 69%;
+    width: 66%;
     position: absolute;
     left: 33%;
     padding-right: 2rem;
