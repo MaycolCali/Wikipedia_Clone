@@ -65,7 +65,7 @@ a{
     width: 100%;
 }
 .first-section .subtitle strong{
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: 450;
     line-height: 1.5rem; /*Interlineado*/
 }
@@ -74,7 +74,7 @@ a{
 }
 .section-content div strong{
     justify-self: center;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 .section-content div p{
     color: var(--wiki-grey);
